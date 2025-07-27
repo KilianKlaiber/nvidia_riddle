@@ -9,4 +9,4 @@ The problem is solved because Tech for Tim suggests that a smart solution can ge
 
 https://www.youtube.com/shorts/dvJ5IRtlyec
 
-I chose to use a dictionary in order to define a sliding window. If the same letter occurs twice, then the first occurrence is overridden. Thus, I do not have to check for duplicates.
+I chose to use a dictionary in order to define a sliding window. If the same letter occurs twice, then the first occurrence is overridden. Thus, I do not have to check for duplicates in the long_string and the substring is automatically shortened. The maximum length of the dictionary is automatically equal to the length of the target string. 
