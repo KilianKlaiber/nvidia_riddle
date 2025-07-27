@@ -1,5 +1,5 @@
-example = {"A": 0, "B": 3, "C": 5}
-
+"""Identify shortest Substring, which contains a predetermined number of unique characters at least once.
+"""
 
 def length(target: dict[str, int]) -> int:
     """Calculate the difference between the largest and smallest integer value """
