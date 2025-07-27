@@ -41,7 +41,7 @@ def find_shortest_substring(text: str, target_letters: str) -> str:
             if len(result) < target_length:
                 result = sub_string.copy()
                 continue
-            if len(sub_string) == len(target_letters):
+            if len(sub_string) == target_length:
                 if length(sub_string) <= length(result):
                     result = sub_string.copy()
                 first_character = get_first_character(sub_string)
