@@ -1,7 +1,7 @@
 long string = ADOBECODEBANC
 target string = ABC
 
-Find the smallest possible stretch of the long string that has every letter from the target string at least once.
+Find the smallest possible stretch of the long string that has every letter from the target string at least once. I am assuming that the target string does not contain duplicate letters.
 
 ![solution for example](image.png)
 

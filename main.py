@@ -8,7 +8,7 @@ def length(target: dict[str, int]) -> int:
 
 
 def get_first_character(target: dict[str, int]) -> str:
-    """Find the string with the smalles integer in the dictionary"""
+    """Find the string with the smallest integer in the dictionary"""
     return min(target.keys(), key=lambda k: target[k])
 
 
